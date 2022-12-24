@@ -23,6 +23,6 @@ function calculateNumericoutput(){
         totalnumber += student.name.charCodeAt[i];
     }
 
-    outputEl.innerHTML = `Numeric Value Of You Name Provide will be ${totalnumber}`
+    outputEl.innerText = `Numeric Value Of You Name Provide will be ${totalnumber}`
 
 }
